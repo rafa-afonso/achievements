@@ -65,3 +65,7 @@ mvnw.cmd
 ### Docker ###
 data/
 .env
+
+### AI ###
+CLAUDE.md
+ai-docs/
