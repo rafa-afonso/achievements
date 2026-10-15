@@ -1,0 +1,20 @@
+services:
+  db:
+    image: postgres:18
+    container_name: achievements_db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: achievements_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - db_data:/var/lib/postgresql
+    networks:
+      - achievements
+
+volumes:
+  db_data:
+
+networks:
+  achievements:
