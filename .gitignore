@@ -13,6 +13,8 @@
 *.zip
 *.tar.gz
 *.rar
+# The Gradle wrapper jar must be committed, otherwise ./gradlew fails in CI
+!**/gradle/wrapper/gradle-wrapper.jar
 
 ### Gradle temporary files ###
 **/.gradle
