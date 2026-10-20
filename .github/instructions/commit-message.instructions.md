@@ -37,6 +37,7 @@ Use the area of the repository affected. Omit the scope if the change spans seve
 - `docker` – docker-compose and container setup
 - `ci` – GitHub workflows
 - `deps` – dependency updates
+- `adr` – architecture decision records in `docs/adr/`
 - `repo` – repository-level files (gitignore, license, templates, editor settings)
 
 ## Rules
