@@ -50,7 +50,8 @@ build/
 nbactions.xml
 
 ### VS Code ###
-.vscode/
+.vscode/*
+!.vscode/settings.json
 
 ### MAVEN ###
 mvnw
