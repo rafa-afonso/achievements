@@ -6,7 +6,7 @@ It is also a study and portfolio project, built in small, feature-driven increme
 
 ## Stack
 
-- **Backend:** Java 25, Spring Boot 3, PostgreSQL, Flyway, Gradle
+- **Backend:** Java 25, Spring Boot 4, PostgreSQL, Flyway, Gradle
 - **Android:** Kotlin, Jetpack Compose (Material 3), Hilt, Retrofit
 
 ## Repository layout

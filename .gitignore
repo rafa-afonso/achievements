@@ -66,9 +66,8 @@ mvnw.cmd
 .sts4-cache
 
 ### Docker ###
-data/
 .env
 
 ### AI ###
-CLAUDE.md
+CLAUDE.local.md
 ai-docs/
