@@ -1,0 +1,25 @@
+services:
+  healthcheck:
+    test: ["CMD-SHELL", "pg_isready -U postgres -d achievements_db"]
+    interval: 5s
+    timeout: 3s
+    retries: 10
+  db:
+    image: postgres:18
+    container_name: achievements_db
+    ports:
+      - "127.0.0.1:5432:5432"
+    environment:
+      POSTGRES_DB: achievements_db
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+    volumes:
+      - db_data:/var/lib/postgresql
+    networks:
+      - achievements
+
+volumes:
+  db_data:
+
+networks:
+  achievements:
