@@ -11,7 +11,7 @@ Architecture decisions made on this project (backend, Android app, infrastructur
 
 ## Decision Outcome
 
-Chosen option: "MADR, minimal template", because it is plain Markdown that lives next to the code, is lightweight enough to actually be written, and is a well-known open standard.
+Chosen option: "MADR (Markdown Architectural Decision Records), minimal template", because it is plain Markdown that lives next to the code, is lightweight enough to actually be written, and is a well-known open standard.
 
 ### Consequences
 
